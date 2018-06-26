@@ -1,7 +1,7 @@
 {
-  "name": "@oasisdigital/cloud-function-typescript-example",
+  "name": "KickerboxEndpoint",
   "version": "1.0.0",
-  "description": "Example using TypeScript to create a Google Cloud Function",
+  "description": "Kickerbox Endpoint for JSO Camp 2018",
   "main": "index.js",
   "scripts": {
     "clean": "rimraf \"cloudfn/*\"",
@@ -14,7 +14,6 @@
     "test": "run-s clean build mocha",
     "deploy": "run-s clean build copy-package gcfscript"
   },
-  "author": "Kyle Cordes <kyle.cordes@oasisdigital.com>",
   "license": "MIT",
   "devDependencies": {
     "@types/chai": "^4.1.0",
