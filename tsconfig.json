@@ -13,7 +13,7 @@
   },
   "files": [
     "src/local-harness.ts",
-    "src/app/hello.spec.ts"
+    "src/app/getKickerboxes.spec.ts"
   ],
   "typeRoots": [
     "node_modules/@types"

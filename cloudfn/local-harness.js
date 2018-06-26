@@ -6,5 +6,5 @@ const fakeResponse = {
     send: (x) => console.log('output', x),
     status: (x) => console.log('status', x)
 };
-index_1.hello(fakeReq, fakeResponse);
+index_1.get(fakeReq, fakeResponse);
 //# sourceMappingURL=local-harness.js.map

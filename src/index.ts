@@ -1,10 +1,10 @@
-import { Request, Response } from 'express';
+import {Request, Response} from 'express';
 
-import { helloFn } from './app/hello';
+import {getKickerboxes} from './app/getKickerboxes';
 
-export function hello(req: Request, res: Response) {
+export function get(req: Request, res: Response) {
     try {
-        const result = helloFn();
+        const result = getKickerboxes();
         res.status(200);
         res.send(result);
     } catch (err) {

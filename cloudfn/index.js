@@ -1,9 +1,9 @@
 "use strict";
 Object.defineProperty(exports, "__esModule", { value: true });
-const hello_1 = require("./app/hello");
-function hello(req, res) {
+const getKickerboxes_1 = require("./app/getKickerboxes");
+function get(req, res) {
     try {
-        const result = hello_1.helloFn();
+        const result = getKickerboxes_1.getKickerboxes();
         res.status(200);
         res.send(result);
     }
@@ -12,6 +12,6 @@ function hello(req, res) {
         res.send(err);
     }
 }
-exports.hello = hello;
+exports.get = get;
 ;
 //# sourceMappingURL=index.js.map

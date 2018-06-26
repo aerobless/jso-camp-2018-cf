@@ -1,6 +1,6 @@
 import { Request, Response } from 'express';
 
-import { hello } from './index';
+import { get } from './index';
 
 // These fakes are a long way from semantically or mechanically meeting the same
 // interface as the express request and response, so we just force them with a
@@ -16,4 +16,4 @@ const fakeResponse = <Response>{
   status: (x: number) => console.log('status', x)
 };
 
-hello(fakeReq, fakeResponse);
+get(fakeReq, fakeResponse);

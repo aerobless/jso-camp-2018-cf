@@ -1,7 +1,7 @@
 #!/bin/bash
 set -e
 
-# Only the compiled output is going to get deployed, Google cloud functions will
+# Only the compiled output is going to getKickerboxes deployed, Google cloud functions will
 # never see any of the "source" or other supporting files.
 
 cd cloudfn
@@ -29,7 +29,7 @@ BUCKET=kickerbox-storage
 # several functions, currently there is no way to deploy them jointly,
 # transactionally, or quickly.
 
-FNAME=testFunction
+FNAME=kickerbox
 gcloud beta functions deploy $FNAME --region $REGION --stage-bucket $BUCKET --project $PROJ --trigger-http
 
 # Upon success, it will print the URL.
