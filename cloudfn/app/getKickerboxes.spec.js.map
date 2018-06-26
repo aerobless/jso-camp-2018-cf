@@ -1,1 +1,0 @@
-{"version":3,"file":"getKickerboxes.spec.js","sourceRoot":"","sources":["../../src/app/getKickerboxes.spec.ts"],"names":[],"mappings":";;AAAA,+BAA8B;AAE9B,qDAAkD;AAElD,QAAQ,CAAC,wCAAwC,EAAE,GAAG,EAAE;IACtD,EAAE,CAAC,mBAAmB,EAAE,GAAG,EAAE;QAC3B,aAAM,CAAC,+BAAc,EAAE,CAAC,CAAC,EAAE,CAAC,GAAG,CAAC,0DAA0D,CAAC,CAAC;IAC9F,CAAC,CAAC,CAAC;AACL,CAAC,CAAC,CAAC"}

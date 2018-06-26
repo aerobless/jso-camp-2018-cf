@@ -1,7 +1,7 @@
 #!/bin/bash
 set -e
 
-# Only the compiled output is going to getKickerboxes deployed, Google cloud functions will
+# Only the compiled output is going to kickerboxManager deployed, Google cloud functions will
 # never see any of the "source" or other supporting files.
 
 cd cloudfn
