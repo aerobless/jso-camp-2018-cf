@@ -24,4 +24,4 @@ Deploy to Google cloud functions:
 
 ```
 yarn run deploy
-```§
+```
